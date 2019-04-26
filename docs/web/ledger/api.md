@@ -77,7 +77,7 @@ Allows the user to create an artifact into the sPart ledger. The request must be
         </tr>
     </tbody>
 </table>
-
+<br><br>
 
 Example of single artifact request:
 
@@ -166,7 +166,7 @@ Allows the user to amend an artifact in the sPart ledger. The request must be pe
         </tr>
     </tbody>
 </table>
-
+<br>
 
 Example of single artifact request:
 
