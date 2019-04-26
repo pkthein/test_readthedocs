@@ -12,7 +12,8 @@ POST /ledger/api/v1.1/artifacts
 
 Allows the user to create an artifact into the sPart ledger. The request must be performed by a user with roles: "admin" or "member".
 
-<table>
+
+<table style="border: 1px solid black;">
     <thead>
         <tr>
             <th>Field</th>
@@ -58,6 +59,7 @@ Allows the user to create an artifact into the sPart ledger. The request must be
         </tr>
     </tbody>
 </table>
+
 
 Example of single artifact request:
 
@@ -99,7 +101,8 @@ POST /ledger/api/v1.1/artifacts/amend
 
 Allows the user to amend an artifact in the sPart ledger. The request must be performed by a user with roles: "admin" or "member".
 
-<table>
+
+<table style="border: 1px solid black;">
     <thead>
         <tr>
             <th>Field</th>
@@ -145,6 +148,7 @@ Allows the user to amend an artifact in the sPart ledger. The request must be pe
         </tr>
     </tbody>
 </table>
+
 
 Example of single artifact request:
 
