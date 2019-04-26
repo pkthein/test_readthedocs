@@ -16,7 +16,7 @@
 	}
 </style>
 
-#### Artifact Family
+### Artifact Family
 ----
 
 An artifact represents an item of evidence. Typically an artifact is a single document (e.g., notice file, source code archive, bill of materials). An envelope is a special instance of an artifact which represents a collection of artifacts potentially including  other envelopes. For single artifacts the artifact_list field will be empty. For an envelope it will contain a list of zero of more artifacts and the content_type field will be set to "envelope". The uri_list field is a list because copies of the artifact could exist in multiple locations.
