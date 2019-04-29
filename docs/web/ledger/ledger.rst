@@ -6,7 +6,7 @@ To setup a node follow the admin guide.
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    user.md
    api.md
