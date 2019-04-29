@@ -730,7 +730,7 @@ Example of range category response:
 - The UUID does not exist.
 
 
-#### Organization Family
+### Organization Family
 ----
 
 A organization can represent a company, foundation, project or individual whom are associated with parts or artifacts. For instance, "Mac" is owned by "Apple Inc", which is an organization.
