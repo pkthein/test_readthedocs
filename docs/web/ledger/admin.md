@@ -4,7 +4,7 @@
 
 ## Configuring Webserver
 
-<h2>Guide on Creating Docker Image for Development</h2>
+## Guide on Creating Docker Image for Development
 
 **_Important: Both docker and docker-compose are required to proceed with the guide._**
 
@@ -29,10 +29,9 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/
 https://docs.docker.com/compose/install/
 ```
 
-
 <hr>
 
-<h3>Setting Up and Running the Customized Container for sParts</h3>
+### Setting Up and Running the Customized Container for sParts
 
 
 ```
@@ -80,7 +79,7 @@ _Note: 'proto' is used above since the field associating to the name of the cona
 
 <hr>
 
-<h3>Bind-Mounting and Modifying</h3>
+### Bind-Mounting and Modifying
 
 In order to modify the files locally and sync with the docker container, the user is required to bind-mount the directories or files. If possible, refrain from bind-mounting directories unless the user is certain that the whole directory needs editing. For instance, if the user want to modify the sparts-api.py inside the container, the user must first look for the file inside the container. once the user has found the location of the file inside the container, the user needs to copy that file from docker container.
 
