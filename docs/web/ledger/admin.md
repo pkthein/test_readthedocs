@@ -1,3 +1,19 @@
+<!--
+# Copyright 2019 Wind River Systems
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#           http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+-->
+
 # Admin Guide
 
 ## Installation
@@ -108,7 +124,7 @@ Although bind-mount is strongly recommanded, it is not required for editing the 
 
 <hr>
 
-<h3>Modifying the Dockerfile</h3>
+### Modifying the Dockerfile
 
 Most important part of creating one's own image. Assume the user has modified a file and wants to add it into the new image of the container. Then, please make sure to add the file into 'sParts.Dockerfile' before running 'docker-compose build'. In the most cases, the user will not need to modify 'RUN' section of the 'sParts.Dockerfile' and simply adding 'COPY' before 'RUN' should allow the user to re-image the image easily. Remember to change the name of the new image inside 'docker-compose yaml'.
 
